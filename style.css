@@ -1,0 +1,118 @@
+body{
+    font-family: Arial;
+    font-size: 13px;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    float: right;
+    list-style-type: none;
+    margin: 1em;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    list-style-type: none;
+    float: right;
+}
+li{
+    display: inline;
+}
+
+a {
+    padding: 0.5em;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+ text-decoration: underline;
+}
+
+#apps{
+    padding-right: 1em;
+}
+
+#prijava{
+    padding: 7px 10px 7px 10px;
+    background-color: rgb(30, 144, 255);
+    color: white;
+    border: none;
+}
+
+.icon{
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 11%;
+}
+.search{
+    position: relative;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding-top: 1em;
+}
+
+#bar{
+    width: 100%;
+    border-radius: 30px;
+    padding: 1em;
+    border: 1px solid #dcdcdc;
+    font-size: 16px;
+}
+
+#bar:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+button{
+    background-color: #F5F5F5;
+    border: none;
+    padding: 0.8em;
+    color: #808080;
+    border-radius: 5px;
+}
+.buttons{
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+}
+
+.slovenia{
+    color: #808080;
+    background-color: #F5F5F5;
+    width: 100%;
+    position: absolute;
+    bottom: 3em;
+    border-bottom: 3px solid #DCDCDC;
+}
+
+p{
+    font-size: 16px;
+     margin-left: 1.5em;
+}
+.bottom-container{
+    width: 100%;
+    color: #808080;
+    background-color: #F5F5F5;
+    position: absolute;
+    bottom: 0;
+    padding-top: 1em;
+    padding-bottom:1em;
+}
+.bottom-container a{
+    margin-left: 16px;
+}
+.right-footer{
+    float: right;
+    margin-right: 16px;
+}
+
